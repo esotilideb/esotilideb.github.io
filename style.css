@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 1050;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 93px;
+    background: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+.logoNormal {
+    margin-left: 30px;
+    margin-bottom: -600px;
+}
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 60vb !important;
+    background: url(img/bg.png) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 240px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #000000;
+    text-decoration: none;
+    background: #ffffff;
+}
+
+.btn:hover {
+    background: none;
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-extras {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 50px;
+}
+
+.btn-extras a {
+    margin: 25px 50px;
+}
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sau {
+    padding: 30px;
+    background: #000000;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #000000;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3 5rem rgba(0, 0, 0, 0);
+    margin: 2rem;
+}
+
+.box-cointainer .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #000000;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #000000;
+}
+.box-cointainer .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #000000;
+}
+
+.price {
+    background: url(img/familiamedina.png) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #101010;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 20px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 120vh;
+    }
+
+    .navbar {
+        display:none;
+    }
+    
+}
